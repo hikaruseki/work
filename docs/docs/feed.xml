@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    
+    <title>Engineer in the dark</title>
+    
+    
+    <description>This website is a virtual proof that I&apos;m awesome</description>
+    
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>これはテストです。</title>
+        
+        <dc:creator><![CDATA[ Seki Hikaru ]]></dc:creator>
+        
+        <description>
+          
+          github pages * jekyllのはじめの一歩
+
+        </description>
+        <pubDate>Wed, 26 Feb 2020 00:00:00 -0500</pubDate>
+        <link>/2020-02-26-flake-it-till-you-make-it/</link>
+        <guid isPermaLink="true">/2020-02-26-flake-it-till-you-make-it/</guid>
+      </item>
+    
+  </channel>
+</rss>

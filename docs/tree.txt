@@ -1,0 +1,140 @@
+.
+├── ./.gitattributes
+├── ./.github
+│   ├── ./.github/FUNDING.yml
+│   ├── ./.github/issue_template.md
+│   ├── ./.github/pull_request_template.md
+│   └── ./.github/workflows
+│       └── ./.github/workflows/ci.yml
+├── ./.gitignore
+├── ./.jekyll-cache
+│   ├── ./.jekyll-cache/.gitignore
+│   └── ./.jekyll-cache/Jekyll
+│       └── ./.jekyll-cache/Jekyll/Cache
+│           ├── ./.jekyll-cache/Jekyll/Cache/Jekyll--Cache
+│           │   └── ./.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7
+│           │       └── ./.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910
+│           └── ./.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown
+│               ├── ./.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/5e
+│               │   └── ./.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/5e/6e653c0603865769e4410168dbca33bc8334ddb355efc9e7338c6cf8ef251a
+│               ├── ./.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/6b
+│               │   └── ./.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/6b/375336ea853faba7d7a994a7433219277cc91a7095b1a31d77855df4dfb8dd
+│               ├── ./.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/74
+│               │   └── ./.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/74/25d2fb22f9b4c00caeed987605405d0d96d78380b555caff280f5d68515a8e
+│               ├── ./.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/ba
+│               │   └── ./.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/ba/ea473420e88243cd472137f34b8a11926bfe16011df32985eb00c028312dc4
+│               └── ./.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/c5
+│                   └── ./.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/c5/1348e8e650b0ba3580e8882bea3726028428b0d444d984ad2fd0bd415ca73d
+├── ./404.html
+├── ./Appraisals
+├── ./CHANGELOG.md
+├── ./Gemfile
+├── ./Gemfile.lock
+├── ./LICENSE
+├── ./README.md
+├── ./_config.yml
+├── ./_data
+│   └── ./_data/ui-text.yml
+├── ./_includes
+│   ├── ./_includes/cloudflare_analytics.html
+│   ├── ./_includes/commentbox.html
+│   ├── ./_includes/comments.html
+│   ├── ./_includes/disqus.html
+│   ├── ./_includes/ext-css.html
+│   ├── ./_includes/ext-js.html
+│   ├── ./_includes/fb-comment.html
+│   ├── ./_includes/footer-minimal.html
+│   ├── ./_includes/footer-scripts.html
+│   ├── ./_includes/footer.html
+│   ├── ./_includes/giscus-comment.html
+│   ├── ./_includes/google_analytics.html
+│   ├── ./_includes/gtag.html
+│   ├── ./_includes/gtm_body.html
+│   ├── ./_includes/gtm_head.html
+│   ├── ./_includes/head.html
+│   ├── ./_includes/header.html
+│   ├── ./_includes/mathjax.html
+│   ├── ./_includes/matomo.html
+│   ├── ./_includes/nav.html
+│   ├── ./_includes/readtime.html
+│   ├── ./_includes/search.html
+│   ├── ./_includes/social-networks-links.html
+│   ├── ./_includes/social-share.html
+│   ├── ./_includes/staticman-comment.html
+│   ├── ./_includes/staticman-comments.html
+│   └── ./_includes/utterances-comment.html
+├── ./_layouts
+│   ├── ./_layouts/base.html
+│   ├── ./_layouts/default.html
+│   ├── ./_layouts/home.html
+│   ├── ./_layouts/minimal.html
+│   ├── ./_layouts/page.html
+│   └── ./_layouts/post.html
+├── ./_posts
+│   ├── ./_posts/2020-02-26-flake-it-till-you-make-it.md
+│   └── ./_posts/2020-02-28-sample-markdown.md
+├── ./_site
+│   ├── ./_site/2020-02-26-flake-it-till-you-make-it
+│   │   └── ./_site/2020-02-26-flake-it-till-you-make-it/index.html
+│   ├── ./_site/2020-02-28-sample-markdown
+│   │   └── ./_site/2020-02-28-sample-markdown/index.html
+│   ├── ./_site/404.html
+│   ├── ./_site/Appraisals
+│   ├── ./_site/aboutme
+│   │   └── ./_site/aboutme/index.html
+│   ├── ./_site/assets
+│   │   ├── ./_site/assets/css
+│   │   │   ├── ./_site/assets/css/beautifuljekyll-minimal.css
+│   │   │   ├── ./_site/assets/css/beautifuljekyll.css
+│   │   │   ├── ./_site/assets/css/bootstrap-social.css
+│   │   │   ├── ./_site/assets/css/pygment_highlights.css
+│   │   │   └── ./_site/assets/css/staticman.css
+│   │   ├── ./_site/assets/data
+│   │   │   └── ./_site/assets/data/searchcorpus.json
+│   │   ├── ./_site/assets/img
+│   │   │   ├── ./_site/assets/img/404-southpark.jpg
+│   │   │   ├── ./_site/assets/img/avatar-icon.png
+│   │   │   ├── ./_site/assets/img/bgimage.png
+│   │   │   ├── ./_site/assets/img/crepe.jpg
+│   │   │   ├── ./_site/assets/img/path.jpg
+│   │   │   └── ./_site/assets/img/thumb.png
+│   │   └── ./_site/assets/js
+│   │       ├── ./_site/assets/js/beautifuljekyll.js
+│   │       └── ./_site/assets/js/staticman.js
+│   ├── ./_site/beautiful-jekyll-theme.gemspec
+│   ├── ./_site/feed.xml
+│   ├── ./_site/index.html
+│   ├── ./_site/robots.txt
+│   ├── ./_site/sitemap.xml
+│   ├── ./_site/staticman.yml
+│   └── ./_site/tags
+│       └── ./_site/tags/index.html
+├── ./aboutme.md
+├── ./assets
+│   ├── ./assets/css
+│   │   ├── ./assets/css/beautifuljekyll-minimal.css
+│   │   ├── ./assets/css/beautifuljekyll.css
+│   │   ├── ./assets/css/bootstrap-social.css
+│   │   ├── ./assets/css/pygment_highlights.css
+│   │   └── ./assets/css/staticman.css
+│   ├── ./assets/data
+│   │   └── ./assets/data/searchcorpus.json
+│   ├── ./assets/img
+│   │   ├── ./assets/img/404-southpark.jpg
+│   │   ├── ./assets/img/avatar-icon.png
+│   │   ├── ./assets/img/bgimage.png
+│   │   ├── ./assets/img/crepe.jpg
+│   │   ├── ./assets/img/path.jpg
+│   │   └── ./assets/img/thumb.png
+│   └── ./assets/js
+│       ├── ./assets/js/beautifuljekyll.js
+│       └── ./assets/js/staticman.js
+├── ./beautiful-jekyll-theme.gemspec
+├── ./feed.xml
+├── ./index.html
+├── ./screenshot.png
+├── ./staticman.yml
+├── ./tags.html
+└── ./tree.txt
+
+33 directories, 105 files
